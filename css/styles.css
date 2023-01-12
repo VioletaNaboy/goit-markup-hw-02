@@ -63,10 +63,10 @@ body {
 .contacts-item {
   font-style: normal;
 }
-.contacts-item:hover,
-.contacts-item:focus,
-.menu-item:hover,
-.menu-item:focus {
+.contacts-link:hover,
+.contacts-link:focus,
+.menu-link:hover,
+.menu-link:focus {
   color: var(--pressed-state-color);
 }
 
