@@ -1,20 +1,10 @@
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color);
-}
-a {
-  text-decoration: none;
-  color: inherit;
-  font-style: normal;
-}
-button {
-  cursor: pointer;
-}
-
-.list {
-  list-style: none;
 }
 :root {
   --text-color: #434455;
@@ -24,12 +14,32 @@ button {
   --pressed-state-color: #404bbf;
   --borders-color: #e7e9fc;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.list {
+  list-style: none;
+}
 
 /* Logo styles */
 .logo {
   font-family: Raleway;
-  font-weight: 800;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
   color: var(--prymary-brand-color);
 }
 .dark-logo {
@@ -49,7 +59,9 @@ button {
 }
 .menu-item.activity {
   color: var(--pressed-state-color);
-  text-decoration: underline;
+}
+.contacts-item {
+  font-style: normal;
 }
 .contacts-item:hover,
 .contacts-item:focus,
@@ -72,10 +84,7 @@ button {
   color: #ffffff;
 }
 .hero-button {
-  font-weight: 500;
-  font-size: 16px;
   align-items: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: var(--prymary-brand-color);
 }
@@ -105,9 +114,6 @@ button {
   background: var(--light-logo-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
   color: var(--prymary-brand-color);
 }
 
